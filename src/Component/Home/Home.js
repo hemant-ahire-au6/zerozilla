@@ -39,7 +39,7 @@ function Home() {
     }
 
     fetchData();
-  }, []);
+  }, [dispatch]);
 
   const handleChange = (event) => {
     console.log(event.target.value, "AAAAAAA");
