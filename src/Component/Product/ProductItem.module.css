@@ -1,0 +1,35 @@
+.container {
+  width: 22%;
+  border: 3px solid rgb(37, 150, 190);
+  /* padding: 1%; */
+  margin: 1% 1%;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.image {
+  width: 60%;
+  padding: 5%;
+  height: 200px;
+}
+
+.contentDiv {
+  text-align: left;
+  border-top: 3px solid rgb(37, 150, 190);
+  padding: 5%;
+}
+
+.contentDiv h1 {
+  font-size: 1rem;
+}
+
+@media (min-width: 320px) and (max-width: 540px) {
+  .container {
+    width: 100%;
+    border: 3px solid rgb(37, 150, 190);
+    /* padding: 1%; */
+    margin: 1% 1%;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+}

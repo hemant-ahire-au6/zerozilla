@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(37, 150, 190);
+  color: white;
+  padding: 0 5%;
+  height: 4rem;
+  text-align: center !important;
+}
+
+.container h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.container h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.innerDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  text-align: center !important;
+}
+
+@media (min-width: 320px) and (max-width: 540px) {
+  .innerDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    text-align: center !important;
+  }
+
+  .container h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
